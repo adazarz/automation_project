@@ -1,6 +1,7 @@
 The aim of the program is to automate describing customer items. It takes the data from excel file, processes them and uses to change documents' texts and reason codes in the ERP system. It takes from excel file customer numbers, bill of exchange numbers, their sums and invoice numbers that are planned for payment with these bills of exchange. It also checks if there are no inconsistencies in the customer numbers.
 
 How the program reads data from excel
+
 At the beginning it asks about the saving date, it proposes the current one:
 
 <img width="1048" height="309" alt="image" src="https://github.com/user-attachments/assets/23267e2f-5a14-4901-a1ee-2e1a82cd0730" />
@@ -24,7 +25,7 @@ the program will code the detail as 0 and later try to describe all the items on
 <img width="1010" height="141" alt="image" src="https://github.com/user-attachments/assets/090ee6d0-d55c-4dc3-8090-19271b12a425" />
 <img width="1090" height="162" alt="image" src="https://github.com/user-attachments/assets/c40bcc1f-c1ca-4e2a-b75b-d9856e5b26fb" />
 
-If there are inconsistencies in the numbers of customers (probably because an agent made series in excel by accident), it will warn you about this at the beginning:
+If there are inconsistencies in the numbers of customers, it will warn you about this at the beginning:
 <img width="671" height="121" alt="image" src="https://github.com/user-attachments/assets/f18bf6b3-d1a4-48f3-a625-5b4cda860c74" />
 <img width="1090" height="267" alt="image" src="https://github.com/user-attachments/assets/f86ceb5b-4e33-438f-945c-1fba284c005b" />
 
@@ -50,10 +51,10 @@ The program also understands the details written in such a way:
 
 If there are big differences in invoice numbers lengths, it will elaborate the shorter endings in order to avoid filtering out unnecessary invoices:
 
-For detail: 22222/23/24/25
+For detail written in such a way: 22222/23/24/25
 
 <img width="779" height="128" alt="image" src="https://github.com/user-attachments/assets/4a759282-1fa6-47fe-8a29-db73dd3ce570" />
 
-The program uses clipboard to paste the invoice numbers into filtering window in SAP fbl5n, so be ware of using copy/paste during the program work.
+The program uses clipboard to paste the invoice numbers into filtering window in the ERP system, so be ware of using copy/paste during the program work.
 
 <img width="1090" height="322" alt="image" src="https://github.com/user-attachments/assets/cef66560-78c0-4cc8-9936-f8507a024cb6" />
