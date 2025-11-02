@@ -59,4 +59,5 @@ For detail written in such a way: 22222/23/24/25
 
 The program uses clipboard to paste the invoice numbers into filtering window in the ERP system, so be ware of using copy/paste during the program work.
 
-<img width="1090" height="322" alt="image" src="https://github.com/user-attachments/assets/cef66560-78c0-4cc8-9936-f8507a024cb6" />
+<img width="1227" height="362" alt="image" src="https://github.com/user-attachments/assets/a9da7ec8-46a5-4068-a198-aca38dc159cf" />
+
