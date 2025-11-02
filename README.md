@@ -1,4 +1,4 @@
-This is just an example of automation and it neither includes any company-specific data nor is a property of any company.
+This is just an example of automation and it neither includes any company-specific data nor is a property of any company. It's here just for presentational purposes.
 
 The aim of the program is to read and process data from an excel file and use them to change descriptions and reason codes of the items in SAP FBL5N transaction.
 
