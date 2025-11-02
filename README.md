@@ -56,5 +56,5 @@ If there are big differences in invoice numbers lengths, it will elaborate the s
 
 <img width="779" height="128" alt="image" src="https://github.com/user-attachments/assets/8fba4a9a-7520-4b08-9e35-c240ab53ceb9" />
 
-The program uses clipboard to paste the invoice numbers into filtering window in SAP fbl5n, so be ware of using copy/paste during the program work.
+The program uses clipboard to paste the invoice numbers into filtering window in ERP sytem, so be ware of using copy/paste during the program work.
 <img width="1090" height="322" alt="image" src="https://github.com/user-attachments/assets/f2f50fec-daec-4af3-8b21-5f387a0aeb73" />
