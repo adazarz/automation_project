@@ -1,5 +1,7 @@
 This is an example of Python automation. The aim of the program is to automate describing customer items. It takes the data from excel file, processes them and uses to change documents' texts and reason codes in the ERP system. It takes from excel file customer numbers, bill of exchange numbers, their sums and invoice numbers that are planned for payment with these bills of exchange. It also checks if there are no inconsistencies in the customer numbers. There a version with graphical user interface, as well as terminal only version.
 
+The program takes numbers of ex. bills of exchange, joins them with an abbreviation of the bank, saving date, due date and the amount of the payment and assigns it to the detail of payment as a description, and the detail of payment is assigned to the number of customer. So the program creates something like small trees where the customer number is a root, details are branches and to these branches are designated descriptions and amounts. The program stores these information as a dictionary of dictionaries, which is later convenient for looping and introducing the date into an ERP software.
+
 The part of the script that deals with the ERP system has been removed due to its confidentiality.
 
 How the program reads data from excel
