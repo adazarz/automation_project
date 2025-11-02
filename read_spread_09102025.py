@@ -1,4 +1,4 @@
-import pandas as pd
+ import pandas as pd
 import win32com.client
 from datetime import date
 from pprint import pprint
@@ -312,11 +312,12 @@ clipboard = list()
 sap = win32com.client.GetObject("SAPGUI").GetScriptingEngine
 session = sap.Children(0).Children(0)  # Access first open session
 
-#Main loop - part removed
+#Main loop - part removed due to confidentiality
 
 ex = input("Write anything to exit the program\n").lower()
 
 while ex not in list("{:c}".format(x) for x in range(97, 123)) + list(str(x) for x in range(10)):
 
     ex = input("Write anything to exit the program\n").lower()
+
 
